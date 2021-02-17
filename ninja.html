@@ -29,6 +29,20 @@
     this.salud += 10;
   }
 }
+
+class sensei extends ninja{
+  constructor(nombre){
+    super (nombre);
+      this.sabiduria = 10;
+      this.salud = 200;
+      this.velocidad = 10;
+      this.fuerza = 10;
+  }
+  speakWisdom(){
+    super.drinkSake();
+    console.log("mensaje inteligente...");
+  }
+}
   </script>
 </body>
 </html>
